@@ -31,10 +31,10 @@ const startSniping = async(first) => {
         await page.waitForTimeout(200);
         await page.click(LESSONS.primary);
         await page.waitForTimeout(200);
-        isOpenBetter = await page.evaluate(() => {
-            const el = document.querySelector(LESSONS.laboratory);
+        isOpenBetter = await page.evaluate((selector) => {
+            const el = document.querySelector(selector);
             return !!el;
-        });
+        }, LESSONS.laboratory);
         if (isOpenBetter) {
             await page.waitForTimeout(200);
             await page.click(LESSONS.laboratory);
@@ -46,10 +46,10 @@ const startSniping = async(first) => {
             await page.keyboard.press('Escape');
             await page.click(LESSONS.secondary, { delay: 300 });
             await page.waitForTimeout(200);
-            isOpenWorse = await page.evaluate(() => {
-                const el = document.querySelector(LESSONS.laboratory);
+            isOpenWorse = await page.evaluate((selector) => {
+                const el = document.querySelector();
                 return !!el;
-            });
+            }, LESSONS.laboratory);
             if (isOpenWorse) {
                 await page.waitForTimeout(200);
                 await page.click(LESSONS.laboratory);

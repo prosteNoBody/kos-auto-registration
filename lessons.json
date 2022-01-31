@@ -1,0 +1,7 @@
+{
+    "primary": "div.page > div > div:nth-child(3) > div > div:nth-child(3) > div > div.schedule-grid > div:nth-child(21) > div",
+    "secondary": "div.page > div > div:nth-child(3) > div > div:nth-child(3) > div > div.schedule-grid > div:nth-child(18)",
+    "class": "div.form-control.checkbox-group-wrapper > div.checkbox-group.checkbox-group-horizontal.mt-2 > div:nth-child(4) > span > button",
+    "laboratory": "#app > div > div.modal-wrapper > div > div.modal-secondary.modal-dialog-wrapper.laboratory > div > div > div.modal-body > span > button",
+    "exercise": "#app > div > div.modal-wrapper > div > div.modal-secondary.modal-dialog-wrapper.seminar > div > div > div.modal-body > span > button"
+}

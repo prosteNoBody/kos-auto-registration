@@ -1,0 +1,23 @@
+{
+  "name": "kos_auto_registration",
+  "version": "1.0.0",
+  "description": "Automatically registrate lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prosteNoBody/kos_auto_registration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prosteNoBody/kos_auto_registration/issues"
+  },
+  "homepage": "https://github.com/prosteNoBody/kos_auto_registration#readme",
+  "dependencies": {
+    "puppeteer": "^13.1.3"
+  }
+}

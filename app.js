@@ -47,7 +47,7 @@ const startSniping = async(first) => {
             await page.click(LESSONS.secondary, { delay: 300 });
             await page.waitForTimeout(200);
             isOpenWorse = await page.evaluate((selector) => {
-                const el = document.querySelector();
+                const el = document.querySelector(selector);
                 return !!el;
             }, LESSONS.laboratory);
             if (isOpenWorse) {

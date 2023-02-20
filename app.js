@@ -2,8 +2,8 @@ const puppeteer = require("puppeteer");
 
 const LOGIN_PAGE = 'https://new.kos.cvut.cz/login';
 const SCHEDULE_PAGE = 'https://new.kos.cvut.cz/schedule/create';
-const USER = require('./user.json');
-const LESSONS = require('./lessons.json');
+const USER = require('./data/user.json');
+const LESSONS = require('./data/lessons.json');
 
 const LESSONS_CONVERTED = {};
 const TYPES = {

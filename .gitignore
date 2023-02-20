@@ -105,3 +105,4 @@ dist
 
 # Local ignores
 user.json
+.idea/

@@ -2,6 +2,7 @@
 Aplikace funguje na bázi knihovny puppeteer, což je headless chromium. Takže zápis je simulace toho, co by jste normálně museli zaklikat.<br>
 Program se vyplatí využít např. pro automatický zápis při otvírání rozvrhu, nebo pokud čekáte na uvolnění místa. Výhoda je také to, že si můžete dát podle prioritně více možností určitě paralelky a program se bude snažit zapsat tu nejlepší.
 ### Konfigurace
+Je potřeba mít nainstalovaný nodejs (otestováno pro verzi 16.16.0), npm a příkaz make. (jde to i bez něj, stačí si nainstalovat npm balíčky a pak ručně zpustit `node app`)<br>
 Ve složce konfig je potřeba mít soubor `user.json` ve kterém jsou vaše přihlašovací údaje a soubor `lessons.json` ve kterém jsou nastavené hodiny, které chcete zapsat.<br>
 Příklad `user.json`:<br>
 ```json
@@ -28,7 +29,7 @@ Příklad `lessons.json`
 ```
 Např. nahoře u příkladu by se snažil zapsat přednášku 1P, ale pokud by nebyla volná tak zapíše 2P, ale dál bude zkoušet 1P.
 ### Spuštění
-Pro prvotní zapnutí stačí `make`, při dalším použití nebo restartu stačí `make run`, které vynechá `npm i`. Před zapnutím je potřeba správně nakonfigurovat.
+Pro prvotní zapnutí stačí `make`, při dalším použití nebo restartu stačí `make run`, které vynechá `npm i`. Před zapnutím je potřeba správně nakonfigurovat. Program pak vyhazuje logy do informační logy do terminálu.
 ### Proces zápisu
 Bot se přihlasí a nejdřív vyzkouší jestli je zápis otevřen, pokud je tak postupně kouká na hodiny, které jsou dostupné a na hodiny, které jsou v `lessons.json`. Všechny hodiny se rozpoznávají podle parallelID (např. "1P", "25C").<br>
 Paralelka má vždy nějaké ID což je číslo a pak identifikátor typu hodiny:

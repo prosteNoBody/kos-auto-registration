@@ -54,7 +54,7 @@ const startSniping = async(first) => {
         } catch {
             console.log('scheduler is not ready yet, next try at: ' + new Date(Date.now() + waitTimeBetweenTries).toLocaleTimeString());
             await page.waitForTimeout(waitTimeBetweenTries);
-            break;
+            continue;
         }
         const [logStash, betterAvailable] = await page.evaluate(async (LESSONS_CONVERTED, TYPES) => {
             const logStash = [];

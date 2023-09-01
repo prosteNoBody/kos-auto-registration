@@ -1,3 +1,6 @@
+## BUGFIXES!!
+prosím aktivně kontrolovat jestli nevyšla nová verze aplikace (aktivně zkoušet `git fetch; git pull` a pak restartovat samotnou apliakci - pokud běží). Může se stát že v programu bude chyba, kterou se samozřejmě snažím hned opravit, ale verzi si musíte updatovat samy.
+
 ### Popis
 Aplikace funguje na bázi knihovny puppeteer, což je headless chromium. Takže zápis je simulace toho, co by jste normálně museli zaklikat.<br>
 Program se vyplatí využít např. pro automatický zápis při otvírání rozvrhu, nebo pokud čekáte na uvolnění místa. Výhoda je také to, že si můžete dát podle prioritně více možností určitě paralelky a program se bude snažit zapsat tu nejlepší.

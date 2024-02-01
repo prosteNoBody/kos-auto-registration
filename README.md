@@ -1,9 +1,9 @@
 ## BUGFIXES!!
-prosím aktivně kontrolovat jestli nevyšla nová verze aplikace (aktivně zkoušet `git fetch; git pull` a pak restartovat samotnou apliakci - pokud běží). Může se stát že v programu bude chyba, kterou se samozřejmě snažím hned opravit, ale verzi si musíte updatovat samy.
+prosím aktivně kontrolovat jestli nevyšla nová verze aplikace (aktivně zkoušet `git fetch; git pull` a pak restartovat samotnou apliakci - pokud běží). Může se stát že v programu bude chyba, kterou se samozřejmě snažím hned opravit, ale verzi si musíte updatovat sami.
 
 ### Popis
-Aplikace funguje na bázi knihovny puppeteer, což je headless chromium. Takže zápis je simulace toho, co by jste normálně museli zaklikat.<br>
-Program se vyplatí využít např. pro automatický zápis při otvírání rozvrhu, nebo pokud čekáte na uvolnění místa. Výhoda je také to, že si můžete dát podle prioritně více možností určitě paralelky a program se bude snažit zapsat tu nejlepší.
+Aplikace funguje na bázi knihovny puppeteer, což je headless chromium. Takže zápis je simulace toho, co byste normálně museli zaklikat.<br>
+Program se vyplatí využít např. pro automatický zápis při otvírání rozvrhu, nebo pokud čekáte na uvolnění místa. Výhoda je také to, že si můžete dát podle prioritně více možností určité paralelky a program se bude snažit zapsat tu nejlepší.
 ### Konfigurace
 Je potřeba mít nainstalovaný nodejs (otestováno pro verzi 16.16.0), npm a příkaz make. (jde to i bez něj, stačí si nainstalovat npm balíčky a pak ručně zpustit `node app`)<br>
 Ve složce konfig je potřeba mít soubor `user.json` ve kterém jsou vaše přihlašovací údaje a soubor `lessons.json` ve kterém jsou nastavené hodiny, které chcete zapsat.<br>

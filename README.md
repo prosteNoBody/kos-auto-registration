@@ -1,6 +1,9 @@
 ## BUGFIXES!!
 prosím aktivně kontrolovat jestli nevyšla nová verze aplikace (aktivně zkoušet `git fetch; git pull` a pak restartovat samotnou apliakci - pokud běží). Může se stát že v programu bude chyba, kterou se samozřejmě snažím hned opravit, ale verzi si musíte updatovat sami.
 
+## ROADMAP
+V plánu je přidat zápis předmětů, co bude kontrolovat zápis předmětů a snažit se dostat na již zaplněné předměty.
+
 ### Popis
 Aplikace funguje na bázi knihovny puppeteer, což je headless chromium. Takže zápis je simulace toho, co byste normálně museli zaklikat.<br>
 Program se vyplatí využít např. pro automatický zápis při otvírání rozvrhu, nebo pokud čekáte na uvolnění místa. Výhoda je také to, že si můžete dát podle prioritně více možností určité paralelky a program se bude snažit zapsat tu nejlepší.

@@ -1,8 +1,17 @@
-## BUGFIXES!!
-prosím aktivně kontrolovat jestli nevyšla nová verze aplikace (aktivně zkoušet `git fetch; git pull` a pak restartovat samotnou apliakci - pokud běží). Může se stát že v programu bude chyba, kterou se samozřejmě snažím hned opravit, ale verzi si musíte updatovat sami.
+# Kos Auto Registration
+
+## BUGS!!
+KOS se průběžně mění a tato aplikace pouze hloupě dodržuje nějaké postupné "klikání" na stránku.
+Pokud by se stalo, že něco nepůjde (např. protože se změní proces zapisování hodin/předmětů), tak založte issue.
+Ve vážných případech mě klidně kontaktujte na discord @proste_nobody.
+
+## BUGFIXES!
+prosím aktivně kontrolovat jestli nevyšla nová verze aplikace (aktivně zkoušet `git fetch; git pull` a pak restartovat samotnou apliakci - pokud běží).
+Může se stát že v programu bude chyba, kterou se samozřejmě snažím hned opravit, ale verzi si musíte updatovat sami.
 
 ## ROADMAP
-V plánu je přidat zápis předmětů, co bude kontrolovat zápis předmětů a snažit se dostat na již zaplněné předměty.
+- přidat zápis předmětů, co bude kontrolovat zápis předmětů a snažit se dostat na již zaplněné předměty.
+- přepsat celý kód do TS a udělat lepší architekturu kódu (napsal jsem to za jedno odpoledne a následně piloval 7 dní hlavně funkčnost a efektivní běh programu, takže na pěkný kód nezbyl čas)
 
 ### Popis
 Aplikace funguje na bázi knihovny puppeteer, což je headless chromium. Takže zápis je simulace toho, co byste normálně museli zaklikat.<br>

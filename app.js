@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
-const LOGIN_PAGE = 'https://new.kos.cvut.cz/login';
-const SCHEDULE_PAGE = 'https://new.kos.cvut.cz/schedule/create';
+const LOGIN_PAGE = 'https://kos.cvut.cz/login';
+const SCHEDULE_PAGE = 'https://kos.cvut.cz/schedule/create';
 const USER = require('./config/user.json');
 const LESSONS = require('./config/lessons.json');
 

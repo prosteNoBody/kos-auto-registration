@@ -1,5 +1,9 @@
 # Kos Auto Registration
 
+Aktuálně na projektu nepracuji, jelikož už nevím, jestli ho ještě někdo používá (existuje i fork, který má lepší gui + je aktuálnější).
+Navíc se změnil vizuál KOS tvorby rozvrhu, takže těžko říct, jestli to funguje nebo ne.
+*Pokud by někdo chtěl využít, tak mi stačí napsat na discord @proste_nobody případně email `vladimir.votava96@gmail.com` a můžu to ještě oživit v případě zájmu*
+
 ## BUGS!!
 KOS se průběžně mění a tato aplikace pouze hloupě dodržuje nějaké postupné "klikání" na stránku.
 Pokud by se stalo, že něco nepůjde (např. protože se změní proces zapisování hodin/předmětů), tak založte issue.
